@@ -6,7 +6,7 @@ The integration of artificial intelligence (AI), particularly deep learning, has
 
 Main aim:
 
-This Prject explores the segmentation of 3D brain MRI images using various CNN architectures: SegNet, V-Net, and U-Net. Additionally, a novel U-Net architecture was implemented, incorporating the following key enhancements:
+This Prject explores the segmentation of  brain MRI images using various CNN architectures: SegNet, V-Net
 
     Symmetrical encoder-decoder design.
     Leaky ReLU activation for improved gradient flow.
@@ -17,11 +17,9 @@ The study employed datasets from the Medical Segmentation Decathlon for training
 
 Results
 
-Among the architectures tested, U-Net emerged as the most effective model with a Dice Similarity Coefficient (DSC) of 88.5%, outperforming:
 
-    V-Net with a DSC of 86.4%, and
-    SegNet with a DSC of 84.8%.
+    V-Net with a DSC of 86%, and
+    SegNet with a DSC of 84%.
 
-These findings underscore U-Net's superiority in terms of segmentation accuracy and its potential for clinical applications in brain tumor detection
 
 Dataset - https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
